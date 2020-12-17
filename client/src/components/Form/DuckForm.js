@@ -15,9 +15,7 @@ function DuckForm() {
     const [foodTypes, updateFoodTypes] = useState(['Grains', 'Fish', 'Plants', 'Worms'])
 
 
-    const countryOptions = displayCountry.map((x) => { return <option key={x} value={x}>{x}</option> });
-    // const[formData,setFormData]=useState(    {''})
-    
+    const countryOptions = displayCountry.map((x) => { return <option key={x} value={x}>{x}</option> });    
     
 
     useEffect( function upFood(){

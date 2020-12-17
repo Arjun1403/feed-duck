@@ -20,9 +20,6 @@ function Home() {
             <DuckForm />
             <Footer />
             
-            {/* <MainSection {...homeDataThree} />
-            <Pricing/>
-            <MainSection {...homeDataFour} /> */}
 
 
         </>

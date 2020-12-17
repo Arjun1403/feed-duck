@@ -101,10 +101,7 @@ class BarChart extends Component {
                   fontColor: this.state.bgColor,
                   fontSize:18
                 },
-                // gridLines: {
-                //   display: false ,
-                //   color: this.state.bgColor
-                // },
+
               }]
             }
 

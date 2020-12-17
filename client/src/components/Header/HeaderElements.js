@@ -1,6 +1,5 @@
 
-import { css } from 'styled-components';
-import styled, { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
 
 
 export const HeroHeader = styled.div`

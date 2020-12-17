@@ -3,9 +3,6 @@ import { NavBar, NavContainer, NavigationLink, NavIcon, NavMobile, NavButton, Na
 
 function NavigationBar({ isDashBoard = false }) {
 
-
-
-
     return (
 
         <>
@@ -38,11 +35,6 @@ function NavigationBar({ isDashBoard = false }) {
                                 <NavigationLink to='Table' islink={true} smooth={true} duration={1000} >Table</NavigationLink>
                             </NavMobile>)
                     }
-
-
-
-
-
 
                 </NavContainer>
             </NavBar>
