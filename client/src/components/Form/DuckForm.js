@@ -98,7 +98,7 @@ function DuckForm() {
 
         if (response['status'] == 200) {
             alert('Thanks for Submitting');
-            // e.target.reset();
+            e.target.reset();
             console.log(response)
             console.log(foodTypes)
  
